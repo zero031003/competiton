@@ -7,7 +7,7 @@ using namespace std;
  * @param b
  * @return int
  */
-int add_10(int a, int b)
+int add(int a, int b)
 {
     return (a + b);
 }
@@ -16,6 +16,6 @@ int main()
 {
     int a, b;
     cin >> a >> b;
-    cout << add_10(a, b) << endl;
+    cout << add(a, b) << endl;
     return 0;
 }
