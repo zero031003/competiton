@@ -9,8 +9,7 @@ using namespace std;
  */
 int add_10(int a, int b)
 {
-
-    return 10 * (a + b);
+    return (a + b);
 }
 
 int main()
